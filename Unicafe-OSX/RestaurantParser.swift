@@ -11,9 +11,9 @@ import SwiftyJSON
 import Alamofire
 
 class RestaurantParser {
-    let api_url = "http://hyy-lounastyokalu-production.herokuapp.com/publicapi/restaurants"
+    static let api_url = "http://hyy-lounastyokalu-production.herokuapp.com/publicapi/restaurants"
 
-    func getRestaurants(callback: ([Restaurant]) -> Void) {
+    class func getRestaurants(callback: ([Restaurant]) -> Void) {
         Alamofire.request(.GET, api_url).validate().responseJSON { response in
             switch response.result {
             case .Success:

@@ -14,8 +14,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let lol = RestaurantParser()
-        lol.getRestaurants({(restaurants: [Restaurant]) -> Void in
+        RestaurantParser.getRestaurants({(restaurants: [Restaurant]) -> Void in
             print(restaurants)
         })
     }
