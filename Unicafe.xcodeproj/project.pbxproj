@@ -6,20 +6,199 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		74EC84401C591147001B02F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC843F1C591147001B02F2 /* AppDelegate.swift */; };
+		74EC84421C591147001B02F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84411C591147001B02F2 /* ViewController.swift */; };
+		74EC84441C591147001B02F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EC84431C591147001B02F2 /* Assets.xcassets */; };
+		74EC84471C591147001B02F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74EC84451C591147001B02F2 /* Main.storyboard */; };
+		74EC84521C591147001B02F2 /* Unicafe_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84511C591147001B02F2 /* Unicafe_OSXTests.swift */; };
+		74EC845D1C591147001B02F2 /* Unicafe_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC845C1C591147001B02F2 /* Unicafe_OSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74EC844E1C591147001B02F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74EC84321C59102B001B02F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74EC843B1C591147001B02F2;
+			remoteInfo = "Unicafe-OSX";
+		};
+		74EC84591C591147001B02F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74EC84321C59102B001B02F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74EC843B1C591147001B02F2;
+			remoteInfo = "Unicafe-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74EC843C1C591147001B02F2 /* Unicafe-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unicafe-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EC843F1C591147001B02F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74EC84411C591147001B02F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74EC84431C591147001B02F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74EC84461C591147001B02F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74EC84481C591147001B02F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74EC844D1C591147001B02F2 /* Unicafe-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unicafe-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EC84511C591147001B02F2 /* Unicafe_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicafe_OSXTests.swift; sourceTree = "<group>"; };
+		74EC84531C591147001B02F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74EC84581C591147001B02F2 /* Unicafe-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unicafe-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EC845C1C591147001B02F2 /* Unicafe_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicafe_OSXUITests.swift; sourceTree = "<group>"; };
+		74EC845E1C591147001B02F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74EC84391C591147001B02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EC844A1C591147001B02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EC84551C591147001B02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		74EC84311C59102B001B02F2 = {
 			isa = PBXGroup;
 			children = (
+				74EC843E1C591147001B02F2 /* Unicafe-OSX */,
+				74EC84501C591147001B02F2 /* Unicafe-OSXTests */,
+				74EC845B1C591147001B02F2 /* Unicafe-OSXUITests */,
+				74EC843D1C591147001B02F2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		74EC843D1C591147001B02F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74EC843C1C591147001B02F2 /* Unicafe-OSX.app */,
+				74EC844D1C591147001B02F2 /* Unicafe-OSXTests.xctest */,
+				74EC84581C591147001B02F2 /* Unicafe-OSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74EC843E1C591147001B02F2 /* Unicafe-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				74EC843F1C591147001B02F2 /* AppDelegate.swift */,
+				74EC84411C591147001B02F2 /* ViewController.swift */,
+				74EC84431C591147001B02F2 /* Assets.xcassets */,
+				74EC84451C591147001B02F2 /* Main.storyboard */,
+				74EC84481C591147001B02F2 /* Info.plist */,
+			);
+			path = "Unicafe-OSX";
+			sourceTree = "<group>";
+		};
+		74EC84501C591147001B02F2 /* Unicafe-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				74EC84511C591147001B02F2 /* Unicafe_OSXTests.swift */,
+				74EC84531C591147001B02F2 /* Info.plist */,
+			);
+			path = "Unicafe-OSXTests";
+			sourceTree = "<group>";
+		};
+		74EC845B1C591147001B02F2 /* Unicafe-OSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74EC845C1C591147001B02F2 /* Unicafe_OSXUITests.swift */,
+				74EC845E1C591147001B02F2 /* Info.plist */,
+			);
+			path = "Unicafe-OSXUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74EC843B1C591147001B02F2 /* Unicafe-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EC845F1C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSX" */;
+			buildPhases = (
+				74EC84381C591147001B02F2 /* Sources */,
+				74EC84391C591147001B02F2 /* Frameworks */,
+				74EC843A1C591147001B02F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unicafe-OSX";
+			productName = "Unicafe-OSX";
+			productReference = 74EC843C1C591147001B02F2 /* Unicafe-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74EC844C1C591147001B02F2 /* Unicafe-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EC84621C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSXTests" */;
+			buildPhases = (
+				74EC84491C591147001B02F2 /* Sources */,
+				74EC844A1C591147001B02F2 /* Frameworks */,
+				74EC844B1C591147001B02F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74EC844F1C591147001B02F2 /* PBXTargetDependency */,
+			);
+			name = "Unicafe-OSXTests";
+			productName = "Unicafe-OSXTests";
+			productReference = 74EC844D1C591147001B02F2 /* Unicafe-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74EC84571C591147001B02F2 /* Unicafe-OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EC84651C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSXUITests" */;
+			buildPhases = (
+				74EC84541C591147001B02F2 /* Sources */,
+				74EC84551C591147001B02F2 /* Frameworks */,
+				74EC84561C591147001B02F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74EC845A1C591147001B02F2 /* PBXTargetDependency */,
+			);
+			name = "Unicafe-OSXUITests";
+			productName = "Unicafe-OSXUITests";
+			productReference = 74EC84581C591147001B02F2 /* Unicafe-OSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		74EC84321C59102B001B02F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					74EC843B1C591147001B02F2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					74EC844C1C591147001B02F2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 74EC843B1C591147001B02F2;
+					};
+					74EC84571C591147001B02F2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 74EC843B1C591147001B02F2;
+					};
+				};
 			};
 			buildConfigurationList = 74EC84351C59102B001B02F2 /* Build configuration list for PBXProject "Unicafe" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,14 +206,97 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 74EC84311C59102B001B02F2;
+			productRefGroup = 74EC843D1C591147001B02F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				74EC843B1C591147001B02F2 /* Unicafe-OSX */,
+				74EC844C1C591147001B02F2 /* Unicafe-OSXTests */,
+				74EC84571C591147001B02F2 /* Unicafe-OSXUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74EC843A1C591147001B02F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EC84441C591147001B02F2 /* Assets.xcassets in Resources */,
+				74EC84471C591147001B02F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EC844B1C591147001B02F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EC84561C591147001B02F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74EC84381C591147001B02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EC84421C591147001B02F2 /* ViewController.swift in Sources */,
+				74EC84401C591147001B02F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EC84491C591147001B02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EC84521C591147001B02F2 /* Unicafe_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EC84541C591147001B02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EC845D1C591147001B02F2 /* Unicafe_OSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74EC844F1C591147001B02F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74EC843B1C591147001B02F2 /* Unicafe-OSX */;
+			targetProxy = 74EC844E1C591147001B02F2 /* PBXContainerItemProxy */;
+		};
+		74EC845A1C591147001B02F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74EC843B1C591147001B02F2 /* Unicafe-OSX */;
+			targetProxy = 74EC84591C591147001B02F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74EC84451C591147001B02F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74EC84461C591147001B02F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		74EC84361C59102B001B02F2 /* Debug */ = {
@@ -49,6 +311,284 @@
 			};
 			name = Release;
 		};
+		74EC84601C591147001B02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Unicafe-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samisaada.Unicafe-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74EC84611C591147001B02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Unicafe-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samisaada.Unicafe-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		74EC84631C591147001B02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Unicafe-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samisaada.Unicafe-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unicafe-OSX.app/Contents/MacOS/Unicafe-OSX";
+			};
+			name = Debug;
+		};
+		74EC84641C591147001B02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Unicafe-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samisaada.Unicafe-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unicafe-OSX.app/Contents/MacOS/Unicafe-OSX";
+			};
+			name = Release;
+		};
+		74EC84661C591147001B02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Unicafe-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samisaada.Unicafe-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Unicafe-OSX";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		74EC84671C591147001B02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Unicafe-OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samisaada.Unicafe-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Unicafe-OSX";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -60,6 +600,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		74EC845F1C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EC84601C591147001B02F2 /* Debug */,
+				74EC84611C591147001B02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74EC84621C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EC84631C591147001B02F2 /* Debug */,
+				74EC84641C591147001B02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74EC84651C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EC84661C591147001B02F2 /* Debug */,
+				74EC84671C591147001B02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
