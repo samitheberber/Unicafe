@@ -15,7 +15,9 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
         let lol = RestaurantParser()
-        lol.getRestaurants()
+        lol.getRestaurants({(restaurants: [Restaurant]) -> Void in
+            print(restaurants)
+        })
     }
 
     override var representedObject: AnyObject? {

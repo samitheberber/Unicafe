@@ -12,19 +12,25 @@ import Alamofire
 
 class RestaurantParser {
     let api_url = "http://hyy-lounastyokalu-production.herokuapp.com/publicapi/restaurants"
-    
-    func getRestaurants() {
+
+    func getRestaurants(callback: ([Restaurant]) -> Void) {
         Alamofire.request(.GET, api_url).validate().responseJSON { response in
             switch response.result {
             case .Success:
                 if let value = response.result.value {
                     let json = JSON(value)
-                    print("JSON: \(json)")
+                    if json["status"].stringValue == "OK" {
+                        var restaurants = [Restaurant]()
+                        for (_,subJson):(String, JSON) in json["data"] {
+                            //Do something you want
+                            restaurants.append(Restaurant(id: subJson["id"].stringValue, name: subJson["name"].stringValue, areacode: subJson["areacode"].stringValue))
+                        }
+                        callback(restaurants)
+                    }
                 }
-            case .Failure(let error):
-                print(error)
+            case .Failure(_):
+                break
             }
         }
-
     }
 }

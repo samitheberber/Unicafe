@@ -25,6 +25,7 @@
 		74EC848E1C5925A0001B02F2 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74EC848C1C5925A0001B02F2 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		74EC84901C5925B8001B02F2 /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74EC848F1C5925B8001B02F2 /* Alamofire.framework.dSYM */; };
 		74EC84931C592AD2001B02F2 /* RestaurantParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84921C592AD2001B02F2 /* RestaurantParser.swift */; };
+		74EC84951C5933AC001B02F2 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84941C5933AC001B02F2 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		74EC848C1C5925A0001B02F2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		74EC848F1C5925B8001B02F2 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/Mac/Alamofire.framework.dSYM; sourceTree = "<group>"; };
 		74EC84921C592AD2001B02F2 /* RestaurantParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantParser.swift; sourceTree = "<group>"; };
+		74EC84941C5933AC001B02F2 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				74EC84921C592AD2001B02F2 /* RestaurantParser.swift */,
+				74EC84941C5933AC001B02F2 /* Restaurant.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74EC84951C5933AC001B02F2 /* Restaurant.swift in Sources */,
 				74EC84421C591147001B02F2 /* ViewController.swift in Sources */,
 				74EC84401C591147001B02F2 /* AppDelegate.swift in Sources */,
 				74EC84931C592AD2001B02F2 /* RestaurantParser.swift in Sources */,
