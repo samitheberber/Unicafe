@@ -17,7 +17,7 @@ class DailyLunches: Mappable {
     }
 
     func mapping(map: Map) {
-        date <- map["date"]
+        date <- map["date_en"]
         lunches <- map["data"]
     }
 }

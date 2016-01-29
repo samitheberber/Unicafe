@@ -25,10 +25,25 @@ class TodayViewController: NSViewController, NCWidgetProviding {
 
     func lol() {
         LunchFetcher.getLunches({(week: [DailyLunches]) -> Void in
-            for day in week {
-                print(day.lunches?.first?.price)
+            let lunches = self.getLunchesFromToday(week)
+            for lunch in lunches {
+                print(lunch.name)
             }
         })
+    }
+
+    func getLunchesFromToday(week: [DailyLunches]) -> [Lunch] {
+        let currentDate = NSDate()
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateFormat = "EEE dd.MM"
+        let convertedDate = dateFormatter.stringFromDate(currentDate)
+        for day in week {
+            if day.date == convertedDate {
+                return day.lunches!
+            }
+            //print(day.lunches?.first?.price)
+        }
+        return []
     }
 
 }
