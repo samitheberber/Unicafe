@@ -11,6 +11,7 @@ import NotificationCenter
 
 class TodayViewController: NSViewController, NCWidgetProviding {
 
+    @IBOutlet weak var restaurantName: NSTextField!
     var lunchesForToday: [Lunch]?
 
     override var nibName: String? {
@@ -19,6 +20,7 @@ class TodayViewController: NSViewController, NCWidgetProviding {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.restaurantName.stringValue = "Exactum"
     }
 
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!) {
