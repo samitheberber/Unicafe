@@ -2,7 +2,7 @@
 //  Restaurant.swift
 //  Unicafe
 //
-//  Created by Sami Saada on 27.01.2016.
+//  Created by Sami Saada on 29.01.2016.
 //
 //
 
@@ -12,7 +12,7 @@ class Restaurant {
     let id: String
     let name: String
     let areacode: String
-
+    
     init(id: String, name: String, areacode: String) {
         self.id = id
         self.name = name

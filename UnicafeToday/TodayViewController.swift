@@ -21,5 +21,11 @@ class TodayViewController: NSViewController, NCWidgetProviding {
         // time we called you
         completionHandler(.NoData)
     }
+    
+    func lol() {
+        RestaurantFetcher.getRestaurants({(restaurants: [Restaurant]) -> Void in
+            print(restaurants)
+        })
+    }
 
 }

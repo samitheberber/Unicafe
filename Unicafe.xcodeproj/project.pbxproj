@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7432C7011C5B7D5E004BB396 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432C7001C5B7D5E004BB396 /* Restaurant.swift */; };
+		7432C7041C5B7D8B004BB396 /* RestaurantFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432C7031C5B7D8B004BB396 /* RestaurantFetcher.swift */; };
+		7432C7061C5B7F4E004BB396 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C7051C5B7F4E004BB396 /* Alamofire.framework */; };
+		7432C7181C5B8DEC004BB396 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C7051C5B7F4E004BB396 /* Alamofire.framework */; };
+		7432C7191C5B8DEC004BB396 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C7051C5B7F4E004BB396 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7432C71C1C5B8E2E004BB396 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71B1C5B8E2E004BB396 /* AlamofireObjectMapper.framework */; };
+		7432C71D1C5B8E2E004BB396 /* AlamofireObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71B1C5B8E2E004BB396 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7432C71E1C5B8E45004BB396 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71B1C5B8E2E004BB396 /* AlamofireObjectMapper.framework */; };
+		7432C7201C5B8E7A004BB396 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */; };
+		7432C7211C5B8E86004BB396 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */; };
+		7432C7221C5B8E86004BB396 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		74EC84401C591147001B02F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC843F1C591147001B02F2 /* AppDelegate.swift */; };
 		74EC84421C591147001B02F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84411C591147001B02F2 /* ViewController.swift */; };
 		74EC84441C591147001B02F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EC84431C591147001B02F2 /* Assets.xcassets */; };
@@ -18,14 +29,6 @@
 		74EC84771C5911C1001B02F2 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74EC84751C5911C1001B02F2 /* TodayViewController.xib */; };
 		74EC847B1C5911C1001B02F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74EC84791C5911C1001B02F2 /* InfoPlist.strings */; };
 		74EC847E1C5911C1001B02F2 /* UnicafeToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74EC846C1C5911C1001B02F2 /* UnicafeToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		74EC84841C5922AF001B02F2 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74EC84831C5922AF001B02F2 /* SwiftyJSON.framework */; };
-		74EC84851C5922AF001B02F2 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74EC84831C5922AF001B02F2 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		74EC84891C592338001B02F2 /* SwiftyJSON.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74EC84881C592338001B02F2 /* SwiftyJSON.framework.dSYM */; };
-		74EC848D1C5925A0001B02F2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74EC848C1C5925A0001B02F2 /* Alamofire.framework */; };
-		74EC848E1C5925A0001B02F2 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74EC848C1C5925A0001B02F2 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		74EC84901C5925B8001B02F2 /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 74EC848F1C5925B8001B02F2 /* Alamofire.framework.dSYM */; };
-		74EC84931C592AD2001B02F2 /* RestaurantParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84921C592AD2001B02F2 /* RestaurantParser.swift */; };
-		74EC84951C5933AC001B02F2 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84941C5933AC001B02F2 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7432C71A1C5B8DEC004BB396 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7432C7221C5B8E86004BB396 /* ObjectMapper.framework in Embed Frameworks */,
+				7432C7191C5B8DEC004BB396 /* Alamofire.framework in Embed Frameworks */,
+				7432C71D1C5B8E2E004BB396 /* AlamofireObjectMapper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74EC84821C5911C1001B02F2 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,32 +80,14 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74EC84861C5922AF001B02F2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				74EC84851C5922AF001B02F2 /* SwiftyJSON.framework in Embed Frameworks */,
-				74EC848E1C5925A0001B02F2 /* Alamofire.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74EC84871C5922E7001B02F2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				74EC84891C592338001B02F2 /* SwiftyJSON.framework.dSYM in CopyFiles */,
-				74EC84901C5925B8001B02F2 /* Alamofire.framework.dSYM in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7432C7001C5B7D5E004BB396 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		7432C7031C5B7D8B004BB396 /* RestaurantFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantFetcher.swift; sourceTree = "<group>"; };
+		7432C7051C5B7F4E004BB396 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		7432C71B1C5B8E2E004BB396 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/Mac/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/Mac/ObjectMapper.framework; sourceTree = "<group>"; };
 		74EC843C1C591147001B02F2 /* Unicafe-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unicafe-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EC843F1C591147001B02F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74EC84411C591147001B02F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,12 +107,6 @@
 		74EC84761C5911C1001B02F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
 		74EC84781C5911C1001B02F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74EC847A1C5911C1001B02F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		74EC84831C5922AF001B02F2 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
-		74EC84881C592338001B02F2 /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SwiftyJSON.framework.dSYM; path = Carthage/Build/Mac/SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
-		74EC848C1C5925A0001B02F2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
-		74EC848F1C5925B8001B02F2 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/Mac/Alamofire.framework.dSYM; sourceTree = "<group>"; };
-		74EC84921C592AD2001B02F2 /* RestaurantParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantParser.swift; sourceTree = "<group>"; };
-		74EC84941C5933AC001B02F2 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +114,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74EC84841C5922AF001B02F2 /* SwiftyJSON.framework in Frameworks */,
-				74EC848D1C5925A0001B02F2 /* Alamofire.framework in Frameworks */,
+				7432C7211C5B8E86004BB396 /* ObjectMapper.framework in Frameworks */,
+				7432C7181C5B8DEC004BB396 /* Alamofire.framework in Frameworks */,
+				7432C71C1C5B8E2E004BB396 /* AlamofireObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,12 +139,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				74EC846F1C5911C1001B02F2 /* NotificationCenter.framework in Frameworks */,
+				7432C7061C5B7F4E004BB396 /* Alamofire.framework in Frameworks */,
+				7432C71E1C5B8E45004BB396 /* AlamofireObjectMapper.framework in Frameworks */,
+				7432C7201C5B8E7A004BB396 /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7432C6FF1C5B7D43004BB396 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7432C7001C5B7D5E004BB396 /* Restaurant.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		7432C7021C5B7D70004BB396 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7432C7031C5B7D8B004BB396 /* RestaurantFetcher.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		74EC84311C59102B001B02F2 = {
 			isa = PBXGroup;
 			children = (
@@ -178,7 +190,6 @@
 		74EC843E1C591147001B02F2 /* Unicafe-OSX */ = {
 			isa = PBXGroup;
 			children = (
-				74EC84911C592AAE001B02F2 /* Data */,
 				74EC843F1C591147001B02F2 /* AppDelegate.swift */,
 				74EC84411C591147001B02F2 /* ViewController.swift */,
 				74EC84431C591147001B02F2 /* Assets.xcassets */,
@@ -209,11 +220,10 @@
 		74EC846D1C5911C1001B02F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				74EC848F1C5925B8001B02F2 /* Alamofire.framework.dSYM */,
-				74EC848C1C5925A0001B02F2 /* Alamofire.framework */,
-				74EC84881C592338001B02F2 /* SwiftyJSON.framework.dSYM */,
-				74EC84831C5922AF001B02F2 /* SwiftyJSON.framework */,
+				7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */,
 				74EC846E1C5911C1001B02F2 /* NotificationCenter.framework */,
+				7432C7051C5B7F4E004BB396 /* Alamofire.framework */,
+				7432C71B1C5B8E2E004BB396 /* AlamofireObjectMapper.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 		74EC84701C5911C1001B02F2 /* UnicafeToday */ = {
 			isa = PBXGroup;
 			children = (
+				7432C6FF1C5B7D43004BB396 /* Data */,
+				7432C7021C5B7D70004BB396 /* Networking */,
 				74EC84731C5911C1001B02F2 /* TodayViewController.swift */,
 				74EC84751C5911C1001B02F2 /* TodayViewController.xib */,
 				74EC84781C5911C1001B02F2 /* Info.plist */,
@@ -238,15 +250,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		74EC84911C592AAE001B02F2 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				74EC84921C592AD2001B02F2 /* RestaurantParser.swift */,
-				74EC84941C5933AC001B02F2 /* Restaurant.swift */,
-			);
-			name = Data;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,8 +261,7 @@
 				74EC84391C591147001B02F2 /* Frameworks */,
 				74EC843A1C591147001B02F2 /* Resources */,
 				74EC84821C5911C1001B02F2 /* Embed App Extensions */,
-				74EC84861C5922AF001B02F2 /* Embed Frameworks */,
-				74EC84871C5922E7001B02F2 /* CopyFiles */,
+				7432C71A1C5B8DEC004BB396 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -410,10 +412,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74EC84951C5933AC001B02F2 /* Restaurant.swift in Sources */,
 				74EC84421C591147001B02F2 /* ViewController.swift in Sources */,
 				74EC84401C591147001B02F2 /* AppDelegate.swift in Sources */,
-				74EC84931C592AD2001B02F2 /* RestaurantParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +437,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7432C7041C5B7D8B004BB396 /* RestaurantFetcher.swift in Sources */,
+				7432C7011C5B7D5E004BB396 /* Restaurant.swift in Sources */,
 				74EC84741C5911C1001B02F2 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -813,6 +815,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -864,6 +870,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

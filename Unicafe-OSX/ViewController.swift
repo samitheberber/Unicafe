@@ -14,9 +14,6 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        RestaurantParser.getRestaurants({(restaurants: [Restaurant]) -> Void in
-            print(restaurants)
-        })
     }
 
     override var representedObject: AnyObject? {
