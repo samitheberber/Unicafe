@@ -22,10 +22,12 @@ class TodayViewController: NSViewController, NCWidgetProviding {
         lol()
         completionHandler(.NoData)
     }
-    
+
     func lol() {
-        RestaurantFetcher.getRestaurants({(restaurants: [Restaurant]) -> Void in
-            print(restaurants)
+        LunchFetcher.getLunches({(week: [DailyLunches]) -> Void in
+            for day in week {
+                print(day.lunches?.first?.price)
+            }
         })
     }
 
