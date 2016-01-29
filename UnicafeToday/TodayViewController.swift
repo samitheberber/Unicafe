@@ -21,6 +21,7 @@ class TodayViewController: NSViewController, NCWidgetProviding {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.restaurantName.stringValue = "Exactum"
+        self.updateLunches()
     }
 
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!) {
@@ -40,8 +41,10 @@ class TodayViewController: NSViewController, NCWidgetProviding {
     }
 
     func updateLunches() {
-        for lunch in self.lunchesForToday! {
-            print(lunch.name)
+        if self.lunchesForToday != nil {
+            for lunch in self.lunchesForToday! {
+                print(lunch.name)
+            }
         }
     }
 
