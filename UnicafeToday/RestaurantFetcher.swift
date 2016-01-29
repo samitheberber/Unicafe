@@ -8,17 +8,15 @@
 
 import Foundation
 import Alamofire
+import AlamofireObjectMapper
 
 class RestaurantFetcher {
     static let api_url = "http://hyy-lounastyokalu-production.herokuapp.com/publicapi/restaurants"
     
     class func getRestaurants(callback: ([Restaurant]) -> Void) {
-        Alamofire.request(.GET, api_url).validate().responseJSON { response in
-            switch response.result {
-            case .Success:
-                break
-            case .Failure(_):
-                break
+        Alamofire.request(.GET, api_url).validate().responseObject { (response: Response<RestaurantResponse, NSError>) in
+            if let restaurants = response.result.value?.data {
+                callback(restaurants)
             }
         }
     }

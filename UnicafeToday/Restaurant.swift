@@ -7,15 +7,19 @@
 //
 
 import Foundation
+import ObjectMapper
 
-class Restaurant {
-    let id: String
-    let name: String
-    let areacode: String
+class Restaurant: Mappable {
+    var id: String?
+    var name: String?
+    var areacode: String?
     
-    init(id: String, name: String, areacode: String) {
-        self.id = id
-        self.name = name
-        self.areacode = areacode
+    required init?(_ map: Map){
+    }
+
+    func mapping(map: Map) {
+        id <- map["id"]
+        name <- map["name"]
+        areacode <- map["areacode"]
     }
 }

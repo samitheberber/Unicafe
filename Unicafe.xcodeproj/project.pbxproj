@@ -18,6 +18,7 @@
 		7432C7201C5B8E7A004BB396 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */; };
 		7432C7211C5B8E86004BB396 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */; };
 		7432C7221C5B8E86004BB396 /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7432C7261C5B9182004BB396 /* RestaurantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432C7251C5B9182004BB396 /* RestaurantResponse.swift */; };
 		74EC84401C591147001B02F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC843F1C591147001B02F2 /* AppDelegate.swift */; };
 		74EC84421C591147001B02F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84411C591147001B02F2 /* ViewController.swift */; };
 		74EC84441C591147001B02F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EC84431C591147001B02F2 /* Assets.xcassets */; };
@@ -88,6 +89,7 @@
 		7432C7051C5B7F4E004BB396 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
 		7432C71B1C5B8E2E004BB396 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/Mac/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
 		7432C71F1C5B8E7A004BB396 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/Mac/ObjectMapper.framework; sourceTree = "<group>"; };
+		7432C7251C5B9182004BB396 /* RestaurantResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantResponse.swift; sourceTree = "<group>"; };
 		74EC843C1C591147001B02F2 /* Unicafe-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unicafe-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EC843F1C591147001B02F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74EC84411C591147001B02F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		7432C7021C5B7D70004BB396 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				7432C7251C5B9182004BB396 /* RestaurantResponse.swift */,
 				7432C7031C5B7D8B004BB396 /* RestaurantFetcher.swift */,
 			);
 			name = Networking;
@@ -440,6 +443,7 @@
 				7432C7041C5B7D8B004BB396 /* RestaurantFetcher.swift in Sources */,
 				7432C7011C5B7D5E004BB396 /* Restaurant.swift in Sources */,
 				74EC84741C5911C1001B02F2 /* TodayViewController.swift in Sources */,
+				7432C7261C5B9182004BB396 /* RestaurantResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
