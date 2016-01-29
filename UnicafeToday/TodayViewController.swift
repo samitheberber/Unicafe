@@ -9,9 +9,11 @@
 import Cocoa
 import NotificationCenter
 
-class TodayViewController: NSViewController, NCWidgetProviding {
+class TodayViewController: NSViewController, NCWidgetProviding, NSTableViewDataSource, NSTableViewDelegate {
 
     @IBOutlet weak var restaurantName: NSTextField!
+    @IBOutlet weak var tableView: NSTableView!
+    
     var lunchesForToday: [Lunch]?
 
     override var nibName: String? {
@@ -21,7 +23,9 @@ class TodayViewController: NSViewController, NCWidgetProviding {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.restaurantName.stringValue = "Exactum"
-        self.updateLunches()
+        tableView.setDelegate(self)
+        tableView.setDataSource(self)
+        tableView.target = self
     }
 
     func widgetPerformUpdateWithCompletionHandler(completionHandler: ((NCUpdateResult) -> Void)!) {
@@ -32,18 +36,10 @@ class TodayViewController: NSViewController, NCWidgetProviding {
             (result: Bool, lunches: [Lunch]) in
             if result {
                 self.lunchesForToday = lunches
-                self.updateLunches()
+                self.tableView.reloadData()
                 completionHandler(.NewData)
             } else {
                 completionHandler(.NoData)
-            }
-        }
-    }
-
-    func updateLunches() {
-        if self.lunchesForToday != nil {
-            for lunch in self.lunchesForToday! {
-                print(lunch.name)
             }
         }
     }
@@ -65,6 +61,33 @@ class TodayViewController: NSViewController, NCWidgetProviding {
                 return day.lunches!
             }
             //print(day.lunches?.first?.price)
+        }
+        return nil
+    }
+
+    func numberOfRowsInTableView(tableView: NSTableView) -> Int {
+        return self.lunchesForToday?.count ?? 0
+    }
+
+    func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
+        var text:String=""
+        var cellIdentifier:String=""
+
+        guard let item = self.lunchesForToday?[row] else {
+            return nil
+        }
+
+        if tableColumn == tableView.tableColumns[0] {
+            text = item.name!
+            cellIdentifier = "NameCellID"
+        }
+        else if tableColumn == tableView.tableColumns[1] {
+            text = item.price!
+            cellIdentifier = "PriceCellID"
+        }
+        if let cell = tableView.makeViewWithIdentifier(cellIdentifier, owner: nil ) as? NSTableCellView {
+            cell.textField?.stringValue = text
+            return cell
         }
         return nil
     }
