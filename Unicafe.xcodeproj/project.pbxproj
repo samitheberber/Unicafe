@@ -155,10 +155,6 @@
 		74EC84311C59102B001B02F2 = {
 			isa = PBXGroup;
 			children = (
-				74EC848F1C5925B8001B02F2 /* Alamofire.framework.dSYM */,
-				74EC848C1C5925A0001B02F2 /* Alamofire.framework */,
-				74EC84881C592338001B02F2 /* SwiftyJSON.framework.dSYM */,
-				74EC84831C5922AF001B02F2 /* SwiftyJSON.framework */,
 				74EC843E1C591147001B02F2 /* Unicafe-OSX */,
 				74EC84501C591147001B02F2 /* Unicafe-OSXTests */,
 				74EC845B1C591147001B02F2 /* Unicafe-OSXUITests */,
@@ -213,6 +209,10 @@
 		74EC846D1C5911C1001B02F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74EC848F1C5925B8001B02F2 /* Alamofire.framework.dSYM */,
+				74EC848C1C5925A0001B02F2 /* Alamofire.framework */,
+				74EC84881C592338001B02F2 /* SwiftyJSON.framework.dSYM */,
+				74EC84831C5922AF001B02F2 /* SwiftyJSON.framework */,
 				74EC846E1C5911C1001B02F2 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
@@ -902,6 +902,7 @@
 				74EC84611C591147001B02F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74EC84621C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -910,6 +911,7 @@
 				74EC84641C591147001B02F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74EC84651C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSXUITests" */ = {
 			isa = XCConfigurationList;
@@ -918,6 +920,7 @@
 				74EC84671C591147001B02F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74EC847F1C5911C1001B02F2 /* Build configuration list for PBXNativeTarget "UnicafeToday" */ = {
 			isa = XCConfigurationList;
@@ -926,6 +929,7 @@
 				74EC84811C5911C1001B02F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
