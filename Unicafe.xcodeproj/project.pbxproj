@@ -33,7 +33,7 @@
 		74EC84741C5911C1001B02F2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC84731C5911C1001B02F2 /* TodayViewController.swift */; };
 		74EC84771C5911C1001B02F2 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74EC84751C5911C1001B02F2 /* TodayViewController.xib */; };
 		74EC847B1C5911C1001B02F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74EC84791C5911C1001B02F2 /* InfoPlist.strings */; };
-		74EC847E1C5911C1001B02F2 /* Unicafe.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74EC846C1C5911C1001B02F2 /* Unicafe.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		74EC847E1C5911C1001B02F2 /* Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 74EC846C1C5911C1001B02F2 /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +80,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				74EC847E1C5911C1001B02F2 /* Unicafe.appex in Embed App Extensions */,
+				74EC847E1C5911C1001B02F2 /* Today.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,7 +98,7 @@
 		7432C7291C5B98D2004BB396 /* LunchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchResponse.swift; sourceTree = "<group>"; };
 		7432C72B1C5B9953004BB396 /* DailyLunches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyLunches.swift; sourceTree = "<group>"; };
 		7432C72D1C5B99CE004BB396 /* Lunch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lunch.swift; sourceTree = "<group>"; };
-		74EC843C1C591147001B02F2 /* Unicafe-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unicafe-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EC843C1C591147001B02F2 /* Unicafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unicafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EC843F1C591147001B02F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74EC84411C591147001B02F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74EC84431C591147001B02F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		74EC84581C591147001B02F2 /* Unicafe-OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unicafe-OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EC845C1C591147001B02F2 /* Unicafe_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unicafe_OSXUITests.swift; sourceTree = "<group>"; };
 		74EC845E1C591147001B02F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74EC846C1C5911C1001B02F2 /* Unicafe.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Unicafe.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EC846C1C5911C1001B02F2 /* Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Today.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EC846E1C5911C1001B02F2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		74EC84721C5911C1001B02F2 /* UnicafeToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = UnicafeToday.entitlements; sourceTree = "<group>"; };
 		74EC84731C5911C1001B02F2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -194,10 +194,10 @@
 		74EC843D1C591147001B02F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74EC843C1C591147001B02F2 /* Unicafe-OSX.app */,
+				74EC843C1C591147001B02F2 /* Unicafe.app */,
 				74EC844D1C591147001B02F2 /* Unicafe-OSXTests.xctest */,
 				74EC84581C591147001B02F2 /* Unicafe-OSXUITests.xctest */,
-				74EC846C1C5911C1001B02F2 /* Unicafe.appex */,
+				74EC846C1C5911C1001B02F2 /* Today.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,9 +268,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74EC843B1C591147001B02F2 /* Unicafe-OSX */ = {
+		74EC843B1C591147001B02F2 /* Unicafe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74EC845F1C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSX" */;
+			buildConfigurationList = 74EC845F1C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe" */;
 			buildPhases = (
 				74EC84381C591147001B02F2 /* Sources */,
 				74EC84391C591147001B02F2 /* Frameworks */,
@@ -283,9 +283,9 @@
 			dependencies = (
 				74EC847D1C5911C1001B02F2 /* PBXTargetDependency */,
 			);
-			name = "Unicafe-OSX";
+			name = Unicafe;
 			productName = "Unicafe-OSX";
-			productReference = 74EC843C1C591147001B02F2 /* Unicafe-OSX.app */;
+			productReference = 74EC843C1C591147001B02F2 /* Unicafe.app */;
 			productType = "com.apple.product-type.application";
 		};
 		74EC844C1C591147001B02F2 /* Unicafe-OSXTests */ = {
@@ -324,9 +324,9 @@
 			productReference = 74EC84581C591147001B02F2 /* Unicafe-OSXUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		74EC846B1C5911C1001B02F2 /* Unicafe */ = {
+		74EC846B1C5911C1001B02F2 /* Today */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74EC847F1C5911C1001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe" */;
+			buildConfigurationList = 74EC847F1C5911C1001B02F2 /* Build configuration list for PBXNativeTarget "Today" */;
 			buildPhases = (
 				74EC84681C5911C1001B02F2 /* Sources */,
 				74EC84691C5911C1001B02F2 /* Frameworks */,
@@ -336,9 +336,9 @@
 			);
 			dependencies = (
 			);
-			name = Unicafe;
+			name = Today;
 			productName = UnicafeToday;
-			productReference = 74EC846C1C5911C1001B02F2 /* Unicafe.appex */;
+			productReference = 74EC846C1C5911C1001B02F2 /* Today.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -379,10 +379,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74EC843B1C591147001B02F2 /* Unicafe-OSX */,
+				74EC843B1C591147001B02F2 /* Unicafe */,
 				74EC844C1C591147001B02F2 /* Unicafe-OSXTests */,
 				74EC84571C591147001B02F2 /* Unicafe-OSXUITests */,
-				74EC846B1C5911C1001B02F2 /* Unicafe */,
+				74EC846B1C5911C1001B02F2 /* Today */,
 			);
 		};
 /* End PBXProject section */
@@ -468,17 +468,17 @@
 /* Begin PBXTargetDependency section */
 		74EC844F1C591147001B02F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74EC843B1C591147001B02F2 /* Unicafe-OSX */;
+			target = 74EC843B1C591147001B02F2 /* Unicafe */;
 			targetProxy = 74EC844E1C591147001B02F2 /* PBXContainerItemProxy */;
 		};
 		74EC845A1C591147001B02F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74EC843B1C591147001B02F2 /* Unicafe-OSX */;
+			target = 74EC843B1C591147001B02F2 /* Unicafe */;
 			targetProxy = 74EC84591C591147001B02F2 /* PBXContainerItemProxy */;
 		};
 		74EC847D1C5911C1001B02F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74EC846B1C5911C1001B02F2 /* Unicafe */;
+			target = 74EC846B1C5911C1001B02F2 /* Today */;
 			targetProxy = 74EC847C1C5911C1001B02F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -925,7 +925,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74EC845F1C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe-OSX" */ = {
+		74EC845F1C591147001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74EC84601C591147001B02F2 /* Debug */,
@@ -952,7 +952,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74EC847F1C5911C1001B02F2 /* Build configuration list for PBXNativeTarget "Unicafe" */ = {
+		74EC847F1C5911C1001B02F2 /* Build configuration list for PBXNativeTarget "Today" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74EC84801C5911C1001B02F2 /* Debug */,

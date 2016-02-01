@@ -39,6 +39,8 @@ class TodayViewController: NSViewController, NCWidgetProviding, NSTableViewDataS
                 self.tableView.reloadData()
                 completionHandler(.NewData)
             } else {
+                self.lunchesForToday = []
+                self.tableView.reloadData()
                 completionHandler(.NoData)
             }
         }
