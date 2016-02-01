@@ -42,6 +42,7 @@ class TodayViewController: NSViewController, NCWidgetProviding, NSTableViewDataS
                 completionHandler(.NoData)
             }
         }
+        completionHandler(.NoData)
     }
 
     func fetchData(completion: (result: Bool, lunches: [Lunch]) -> Void) {
